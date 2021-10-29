@@ -8,3 +8,76 @@
     font-size: 100%;
 }
 
+.flex {
+    display: flex;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-20 {
+    width: 20%;
+}
+
+.width-10 {
+    width: 10%;
+}
+
+.sezione-intestazione-pagina {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.contenitore-vista-elementi {
+    display: inline-block;
+    margin-top: 0.9em;
+}
+
+.vista-elementi {
+    background-color: grey;
+    margin: 0 0.5em;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.contenitore-colonne {
+    width: 100%;
+    height: calc(100vh - 170px);
+    background-color: black;
+}
+
+.contenitore-pulsanti-cta {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    justify-content: space-between;
+    color: white;
+}
+
+.sezione-dispositivi-input .lista-dispositivi-input {
+    list-style: none;
+    height: 100%;
+}
+
+.sezione-dispositivi-input .lista-dispositivi-input li {
+    font-size: 3em;
+}
+
+.sezione-dispositivi-input .lista-dispositivi-input li button {
+    background-color:black;
+    border: 0;
+    cursor: pointer;
+    color: white;
+}
+
+.pulsante-di-input {
+    font-size: ;
+}
