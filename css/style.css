@@ -24,6 +24,15 @@
     width: 10%;
 }
 
+.colore-testo-lime{
+    color: lime;
+}
+
+h5 {
+    font-size: 0.5em;
+    font-weight: normal;
+}
+
 .sezione-intestazione-pagina {
     width: 100%;
     height: 70px;
@@ -47,16 +56,24 @@
     padding: 0.5em;
     border-radius: 10px;
 }
-
-.contenitore-colonne {
+.contenitore-main {
     width: 100%;
     height: calc(100vh - 170px);
     background-color: black;
 }
-
+.contenitore-colonne {
+    width: 100%;
+    background-color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .contenitore-pulsanti-cta {
     width: 100%;
     height: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
     background-color: black;
     justify-content: space-between;
     color: white;
@@ -65,10 +82,11 @@
 .sezione-dispositivi-input .lista-dispositivi-input {
     list-style: none;
     height: 100%;
+    justify-content: space-around;
 }
 
 .sezione-dispositivi-input .lista-dispositivi-input li {
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 .sezione-dispositivi-input .lista-dispositivi-input li button {
@@ -79,5 +97,20 @@
 }
 
 .pulsante-di-input {
-    font-size: ;
+    font-size: 1em;
+}
+
+.sezione-dispositivi-input .lista-dispositivi-input .elementi button span {
+    margin-left: 1em;
+}
+
+.sezione-pulsante-fine-chiamata {
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: red;
+}
+
+.contenitore-colonne > div {
+    
 }
